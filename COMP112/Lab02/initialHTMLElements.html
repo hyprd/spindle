@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- 
+Nick Meek. Dec. 2017.
+All of the elements used in COMP112 Lab02.
+NOTE carefully how this document is marked up.
+-->
+<html lang="en">
+    <head>
+        <title>HTML Elements Used in COMP112, Lab02</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+<h1>HTML Elements Used in COMP112, Lab02</h1>
+<section>
+<h2>Block-level Elements</h2>
+
+	<section>
+	<h3>html</h3>
+		<p>This element represents the root of HTML and XHTML documents. Any subsequent elements are the children of this root element.</p>
+		<p>Authors are encouraged to specify a lang attribute on the root html element, giving the document's language.</p>
+	</section>
+
+	<section>
+	<h3>head</h3>
+		<p>This element represents a collection of metadata for the Document.</p>
+	</section>
+
+	<section>
+	<h3>title</h3>
+		<p>This element represents the document's title or name.</p>
+	</section>
+
+	<section>
+	<h3>meta</h3>
+		<p>This element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.</p>
+	</section>
+
+	<section>
+	<h3>body</h3>
+		<p>This element represents the main content of the document.</p>
+	</section>
+
+	<section>
+	<h3>h1..h6</h3>
+		<p>These elements represent headings for their sections.</p>
+		<p>These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.</p>
+	</section>
+
+	<section>
+	<h3>p</h3>
+		<p>This element represents a paragraph.</p>
+		<h4>Notes</h4>
+			<p>This element should not be used when a more specific element is more appropriate.</p>
+	</section>
+
+	<section>
+	<h3>hr</h3>
+		<p>This element represents a paragraph level thematic break.</p>
+	</section>
+
+	<section>
+	<h3>ol</h3>
+		<p>This element represents an ordered list.</p>
+		<h4>Notes</h4>
+			<h5>Examples of ordered list labeling</h5>
+				<ul>
+    				<li> 1. 2. 3.</li>
+    				<li> a. b. c.</li>
+    				<li> i. ii. iii.</li>
+				</ul>
+	</section>
+
+	<section>
+	<h3>ul</h3>
+		<p>This element represents an unordered list.</p>
+		<h4>Notes</h4>
+			<p>The items of the list are the list items, (see below).</p>
+	</section>
+
+	<section>
+	<h3>li</h3>
+		<p>This element represents a list item.</p>
+		<h4>Notes</h4>
+			<p>By definition, a list of items contains more than one list item elements.</p>
+	</section>
+
+	<section>
+	<h3>blockquote</h3>
+		<p>This element represents a quoted section.</p>
+		<h4>Notes</h4>
+			<p>Content inside this element must be quoted from another source; if it has address, a cite attribute should present.</p>
+	</section>
+
+	<section>
+	<h3>figure</h3>
+		<p>This element represents some flow content, that is self-contained and typically referenced as a single unit.</p>
+		<h4>Notes</h4>
+			<p>A figure element is typically used to contain:</p>
+			<ul>
+    			<li> illustrations</li>
+    			<li> diagrams</li>
+    			<li> photos</li>
+    			<li> code listings</li>
+			</ul>
+	</section>
+
+	<section>
+	<h3>figcaption</h3>
+		<p>This element represents a caption or legend for the contents of its parent figure element.</p>
+	</section>
+
+	<section>
+	<h3>footer</h3>
+		<p>This element represents a footer for its nearest ancestor sectioning content or sectioning root element.</p>
+		<h4>Notes</h4>
+			<p>A footer typically contains information about its section for instance:</p>
+			<ul>
+    			<li> author</li>
+    			<li> links to related documents</li>
+    			<li> copyright data etc.</li>
+			</ul>
+	</section>
+
+	<section>
+	<h3>section</h3>
+		<p>This element represents a section of a document.A section must have a header.</p>
+
+	</section>
+</section>
+
+<section>
+<h2>Inline Elements</h2>
+
+	<section>
+	<h3>em</h3>
+		<p>This element represents emphasis of its contents.</p>
+	</section>
+
+	<section>
+	<h3>strong</h3>
+		<p>This element represents strong emphasis of its contents.</p>
+	</section>
+
+	<section>
+	<h3>img</h3>
+		<p>This element represents an image.</p>
+		<h4>Notes</h4>
+			<ul>
+    			<li> The image given by the src attribute is the embedded content.</li>
+    			<li> The value of the alt attribute is the img element's fallback content.</li>
+    			<li> There are three common web image formats:</li>
+    			<li> PNG</li>
+    			<li> JPEG</li>
+    			<li> GIF</li>
+			</ul>
+	</section>
+
+	<section>
+	<h3>q</h3>
+		<p>This element represents some phrasing content quoted from another source.</p>
+		<h4>Notes</h4>
+			<ul>
+    			<li> Content inside a q element must be quoted from another source. If it has address, a cite attribute should present.</li>
+    			<li> The use of q elements to mark up quotations is entirely optional; using explicit quotation punctuation without q elements is just as correct.</li>
+			</ul>
+	</section>
+
+	<section>
+	<h3>sup</h3>
+		<p>This element represents a superscript.</p>
+	</section>
+</section>
+
+<footer>
+		<p>All information from w3.org/wiki/HTML/Elements/</p>
+</footer>
+</body>
+</html>

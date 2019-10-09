@@ -1,0 +1,30 @@
+/* Nick Meek 2017 COMP112 style for floatBoxes.html */
+div{
+	width:100px;
+	height:75px;
+	border:1px solid;
+	margin: 10px;
+	font-size:xx-large;
+	text-align:center;
+	padding-top:25px;
+}
+
+#box1{
+	color: red;
+	background-color: inherit;
+}
+
+#box2{
+	color: orange;
+	background-color: inherit;
+}
+
+#box3{
+	color: blue;
+	background-color: inherit;
+}
+
+#box4{
+	color: green;
+	background-color: inherit;
+}

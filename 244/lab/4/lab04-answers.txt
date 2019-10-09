@@ -1,0 +1,91 @@
+# -*- mode: org -*-
+
+_Cosc244/Tele202 - Lab 4 answers_
+
+  1. 
+     |--------+--------+---------+-------------------+----------+--------------------|
+     | =code= | =prev= | =entry= | =prev + entry[0]= | =output= | =dictionary=       |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |        |        |         |                   |          | ASCII code (0-255) |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     84 |        |    T    |        T          |    T     |                    |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     79 |   T    |    O    |        TO         |    O     |      TO = 256      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     66 |   O    |    B    |        OB         |    B     |      OB = 257      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     69 |   B    |    E    |        BE         |    E     |      BE = 258      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     79 |   E    |    O    |        EO         |    O     |      EO = 259      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     82 |   O    |    R    |        OR         |    R     |      OR = 260      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     78 |   R    |    N    |        RN         |    N     |      RN = 261      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     79 |   N    |    O    |        NO         |    O     |      NO = 262      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |     84 |   O    |    T    |        TO         |    T     |      OT = 263      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    256 |   T    |    TO   |        TT         |    TO    |      TT = 264      |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    258 |   TO   |    BE   |        TOB        |    BE    |      TOB = 265     |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    260 |   BE   |    OR   |        BEO        |    OR    |      BEO = 266     |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    265 |   OR   |    TOB  |        ORT        |    TOB   |      ORT = 267     |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    259 |   TOB  |    EO   |        TOBE       |    EO    |      TOBE = 268    |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    261 |   EO   |    RN   |        EOR        |    RN    |      EOR = 269     |
+     |--------+--------+---------+-------------------+----------+--------------------|
+     |    263 |   RN   |    OT   |        RNO        |    OT    |      RNO = 270     |
+     |--------+--------+---------+-------------------+----------+--------------------|
+
+
+  2. Briefly describe the second input parameter of the BitOutputStream constructor.
+     
+   Defines the bitfield size (int)
+  
+  3. What is the purpose of the method, setBitFieldSize()?
+     
+   Sets and validates the size of the bit field (in bits)
+  
+  4. What is the purpose of the method, write()?
+     
+   Write the bitfield to output stream 
+
+  5. What is the purpose of the method, close()?
+     
+   Flush leftover bitfields in the write buffer before closing the output stream  
+
+  6. What is the purpose of the method, setBitFieldSize()?
+     
+   Sets the size of the bitfield to equal bits
+  
+  7. What is the purpose of the method, read()?
+     
+   Read a bitfield from the input stream.
+
+  8. Briefly describe what LookUpTable does.
+     
+   Storage for string/code pairs so they can be easily retrieved  
+
+  9. What is the purpose of the method, add()?
+     
+   Adds a new string to the lookup table
+
+  10. What is the purpose of the method, hasString()?
+      
+   Evaluates whether a given string already exists in the lookup table or not
+
+  11. What is the purpose of the method, getCode()?
+      
+   Searches the compression code for a certain string   
+
+  12. What is the purpose of the method, hasCode()?
+      
+   Determines whether a given code exists in the lookup table   
+  
+  13. What is the purpose of the method, getString()?
+      
+   Look up a string associated with the given compression code   

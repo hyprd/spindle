@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BASE=/home/cshome/coursework/244/start/02
+
+atril $BASE/lab02.pdf 2>/dev/null &

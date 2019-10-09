@@ -1,0 +1,9 @@
+ls -l
+my_var="How are you?"
+echo "$my_var my_var $my_var"
+ls	
+
+for i in $(ls)
+do
+	echo "There is an item called $i"
+done

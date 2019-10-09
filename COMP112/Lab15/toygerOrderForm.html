@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<title>Toyger Request</title>
+	</head>
+	<body>
+		<p>
+			Please complete the form below to register your interest in purchasing a Toyger. We will be in touch with further details about the cats available.
+		</p>
+		<form method="post" enctype="application/x-www-form-urlencoded" action="http://www.cs.otago.ac.nz/112bin/112formslab.cgi">
+			<div>
+				<input type="hidden" name="recipient" value="simet789@student.otago.ac.nz">
+				<input type="hidden" name="subject" value="Order details">
+				<input type="hidden" name="followup-page" value="http://www.cs.otago.ac.nz/comp112/followup.html">
+			</div>
+			
+			<fieldset class="textInputs">
+				<legend>Contact Details</legend>
+				<ul>
+					<li>
+						<label for="firstname">Firstname:</label>
+						<input type="text" id="firstname" name="name" title="Your first name and any middle names">
+					</li>
+					<li>
+						<label for="surname" tabindex="1">Surname:</label>
+						<input type="text" id="surname" name="surname">
+					</li>
+					<li>
+						<label for="sender">Email address:</label>
+						<input type="text" id="sender" name="sender">
+					</li>
+					<li>
+						<label for="phone">Phone number:</label>
+						<input type="text" id="phone" title="Please supply a prefix to your number (e.g. 021 or 022)" name="phone">
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="checkInputs">
+				<legend>Contact Preference</legend>
+				<ul>
+					<li>
+						<label>
+							<input type="radio" name="contactpreference" id="emailcontact" value="email">
+							Email
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" name="contactpreference" value="phone" id="phonecontact">
+							Phone
+						</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="checkInputs">
+				<legend>Cat Requirements</legend>
+				<ul>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="kitten" value="kitten">
+							Kitten
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="cat" value="cat">
+							Mature
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="pet" value="pet">
+							Pet
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="show" value="show">
+							Show
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="queen" value="queen/stud">
+							Queen
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="stud" value="stud">
+							Stud
+						</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>Comments</legend>
+				<div>
+					<textarea cols="40" rows="4" id="comments" name="comments">Add your comments here</textarea>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="buttonInputs">
+					<label>
+						<input type="submit" value="Submit">
+					</label>
+					<label>
+						<input type="reset" name="Reset">
+					</label>
+				</div>
+			</fieldset>
+		</form>
+			<figure>
+				<img src="toyger.jpg" alt="A toyger">
+			</figure>
+		
+		<p class="thankyou">Thank you!</p>
+	</body>
+</html>

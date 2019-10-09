@@ -1,0 +1,92 @@
+/*
+    Nick Meek 2016
+    Primary style for MQExample.html media query example.
+*/
+
+
+/*    Setting the box-sizing property to border-box simplifies width calculations
+	  See http://www.w3schools.com/css/css3_box-sizing.asp
+	  for more information.
+*/
+*{
+	box-sizing: border-box;
+
+}
+
+html{
+    background-color: #ffe;
+    color:black;
+}
+
+body{
+	max-width:1200px;
+	margin: 0 auto;
+	color: #005;
+	background-color:#eed;
+	font-family:sans-serif;
+}
+
+article{
+	margin: 0 auto;
+}
+
+
+
+/*    Makes three column layout for Buy, Sell, Hire.
+*/
+section{
+	width: 33%;
+	float: left;
+}
+
+section h2{
+	text-align:center;
+}
+
+section div{
+	text-align:justify;
+	margin:10px 20px;
+
+}
+
+/*    Makes the link text move slightly on hover
+*/
+section div a:hover{
+	position:relative;
+	top:1px;
+	left: 1px;
+}
+
+
+/* Navigation */
+nav ul{
+	list-style-type:none;
+	text-align: center;
+	padding: 0;
+}
+
+nav li{
+	float: left;
+	width:20%;
+
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	background-color: blue;
+	color:white;
+	padding: 3px 0;
+}
+
+nav a.currentPage{
+	background-color: green;
+	color: white;
+	position:relative;
+	bottom:5px;
+}
+
+/* Footer */
+footer{
+	clear: left;
+}

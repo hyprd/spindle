@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="simpleCols.css">
+    </head>
+    <body>
+    <h1>SimpleCols: A (very) Basic CSS Framework</h1>
+    <h2>Overview</h2>
+    <p>SimpleCSS was adapted from material published on <a href="w3schools.com">w3schools.com</a>. It is a very basic framework that provides functionality for columnised layouts.</p>
+    <h2>Usage</h2>
+    <p>To Use SimpleCols have SimpleCols.css available and include the following in the head section of your HTML document:</p>
+    <pre>
+&lt;link rel="stylesheet" type="text/css" href="simpleCols.css"&gt;
+    </pre>
+    
+    <h2>Simple Columns</h2>
+    <p>Columns are wrapped in rows. Each column unit is one twelth the width of its parent element. The number of column units in a row must always add up to 12. See below for examples.</p>
+
+<pre>
+&lt;div class="row"&gt;
+    &lt;div class="col-3"&gt;...&lt;/div&gt;
+    &lt;div class="col-9"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>The number of columns add up to 12;  col-3 + col-9.</p>
+<div class="row">
+    <div class="col-3">...</div>
+    <div class="col-9">...</div>
+</div>
+
+<pre>
+&lt;div class="row"&gt;
+    &lt;div class="col-3"&gt;...&lt;/div&gt;
+    &lt;div class="col-4"&gt;...&lt;/div&gt;
+    &lt;div class="col-2"&gt;...&lt;/div&gt;
+    &lt;div class="col-3"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>The number of columns add up to 12;  col-3 + col-4 + col-2 + col-3.</p>
+
+<div class="row">
+    <div class="col-3">...</div>
+    <div class="col-4">...</div>
+    <div class="col-2">...</div>
+    <div class="col-3">...</div>
+</div>
+
+<h2>Nested Columns</h2>
+<pre>
+&lt;div class="row"&gt;
+    &lt;div class="col-3"&gt;...&lt;/div&gt;
+    &lt;div class="col-9"&gt;
+        &lt;div class="col-8"&gt;...&lt;/div&gt;
+        &lt;div class="col-4"&gt;...&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+<div class="row">
+    <div class="col-3">...</div>
+    <div class="col-9">
+        <div class="col-8">...</div>
+        <div class="col-4">...</div>
+    </div>
+</div>
+
+    </body>
+</html>

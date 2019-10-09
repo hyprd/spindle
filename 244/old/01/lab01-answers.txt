@@ -1,0 +1,41 @@
+Exercise 1.
+
+  Absolute or relative paths?
+  
+  /home/cshome/u/username  abs
+                  244/bin  rel
+                  /bin/ls  abs
+                 bin/sort  rel
+              /usr/bin/wc  abs
+   home/cshome/u/username  rel
+     ../cshome/u/username  rel
+                 ~/newdir  abs
+                /bin/sort  abs
+
+Exercise 2.
+
+  Files in /home/cshome/coursework/244/files/01
+
+	Alice.txt          
+	Daniel.jpg  
+	France.jpg    
+	sample-text.txt
+	another_directory  
+	dir1        
+	greeting.txt
+
+  Files in /home/cshome/coursework/244/files/01/dir1
+
+	1file.txt  
+	another_file.txt  
+	long-list-files.txt
+
+Exercise 3.
+
+  1. C-a 
+  2. C-e
+  3. C-k
+  4. C-x 2
+  5. C-x 1
+  6. Scroll so that cursor is at the top / center / bottom of the text
+  7. C-a, C-e, C-k

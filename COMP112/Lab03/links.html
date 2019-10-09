@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>Link page</title>
+	</head>
+	<body>
+		<h1>Links</h1>
+		<h2>Absolute URLs </h2>
+		<nav>
+			<ul>
+				<li>The Otago <a href="https://blackboard.otago.ac.nz">Blackboard</a></li>
+				<li><a href="https://evision.otago.ac.nz/sitsvision/wrd/siw_lgn">eVision</a> Otago</li>
+				<li><a href="https://www.w3schools.com/">w3Schools</a></li>
+				<li><a href="https://validator.w3.org/nu/">HTML Validator</a></li>
+			</ul>
+		</nav>
+		<h2>Relative URLs</h2>
+		<nav>
+			<ul>
+				<li>This links to <a href="page1.html">page1.html</a> which is in the same directory as this page (links.html).
+				</li>
+				<li>This links to <a href="./otherpages/page2.html">page2.html</a> which is in the otherpages directory.
+				</li>
+				<li>This links to <a href="./otherpages/morepages/page3.html">page3.html</a> which is in the otherpages directory.
+				</li>
+				<li>This links to <a href="./pages/page4.html">page4.html</a>.</li>
+				<li>This links to <a href="./otherpages/pages/page5.html">page5.html</a>.</li>
+			</ul>
+		</nav>
+		<h2>Linking to a Fragment</h2>
+		<a href="../Lab02/freshersGuide.html#overload">Freshers Guide</a>
+		<h2>Linking to Files</h2>
+		<p><a href="http://www.cs.otago.ac.nz/comp112/download.zip">Download a little zip file (4KB) via http.</a>
+		</p>
+		<h2>Linking from Images</h2>
+		<figure>
+			<a href="./gorillaHQ.jpg"><img src="./gorilla.jpg" alt="A gorilla family." width="240" height="160"></a>
+			<figcaption>Click to view a higher quality version.</figcaption>
+		</figure>
+		<hr>
+		<footer>
+			COMP112 Lab 03 Febuary 2018 - Ethan Simmonds
+		</footer>
+	</body>
+</html>

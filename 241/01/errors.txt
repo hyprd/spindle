@@ -1,0 +1,8 @@
+1. "Hi" class is public. should be declared in file of the same name
+2. N/A
+3. closing bracket, unclosed string literal and "not a statement" compilation errors
+4. ; expected and "reached end of file while parsing"
+5. main method not found in class "Hi"
+6. cannot find printline symbol
+7. ; expected
+8. reached end of file while parsing

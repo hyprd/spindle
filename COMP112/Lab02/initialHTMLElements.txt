@@ -1,0 +1,100 @@
+            html
+            This element represents the root of HTML and XHTML documents. Any subsequent elements are the children of this root element.
+            Authors are encouraged to specify a lang attribute on the root html element, giving the document's language.
+            
+            head
+            This element represents a collection of metadata for the Document.
+             
+            title
+            This element represents the document's title or name.
+             
+            meta
+            This element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.
+            
+            body
+            This element represents the main content of the document.
+             
+            h1..h6
+            These elements represent headings for their sections.
+            These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
+            
+            p
+            This element represents a paragraph.
+            Notes:
+             This element should not be used when a more specific element is more appropriate.
+            
+            hr
+            This element represents a paragraph-level thematic break.
+            
+            ol
+            This element represents an ordered list.
+            Notes:
+                    - Examples of ordered list labeling:
+                         - 1. 2. 3.
+                         - a. b. c.
+                         - i. ii. iii.
+                 	- The items of the list are the list items, (see below).
+            
+            ul
+            This element represents an unordered list. 
+            Notes:
+            The items of the list are the list items, (see below).
+            
+            li
+            This element represents a list item.
+            Notes:
+            By definition, a list of items contains more than one list item elements.
+             
+            blockquote
+            This element represents a quoted section. 
+            Notes:
+            Content inside this element must be quoted from another source; if it has address, a cite attribute should present.
+            
+            figure
+            This element represents some flow content, that is self-contained and typically referenced as a single unit.
+            Notes:
+            A figure element is typically used to contain:
+                - illustrations
+                - diagrams
+                - photos
+                - code listings
+            
+            figcaption
+            This element represents a caption or legend for the contents of its parent figure element.
+             
+            footer
+            This element represents a footer for its nearest ancestor sectioning content or sectioning root element.
+             Notes:
+             A footer typically contains information about its section:
+                - author
+                - links to related documents
+                - copyright data etc.
+            
+            em
+            This element represents emphasis of its contents.
+             
+            strong
+            This element represents strong emphasis of its contents.
+            
+            img
+            This element represents an image. 
+            Notes:
+                - The image given by the src attribute is the embedded content.
+                - The value of the alt attribute is the img element's fallback content.
+				- There are three common web image formats:
+                		- PNG
+						- JPEG
+						- GIF
+            
+            q
+            This element represents some phrasing content quoted from another source. 
+            Notes:
+                 - Content inside a q element must be quoted from another source. If it has address, a cite attribute should present.
+                 - The use of q elements to mark up quotations is entirely optional; using explicit quotation punctuation without q elements is just as correct.
+                
+            sup
+            This element represents a superscript.
+
+
+            All information from w3.org/wiki/HTML/Elements/
+

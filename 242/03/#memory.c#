@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void){
+    int array_size = 0;
+    int *my_dynamic_array;
+    int i = 0;
+    printf("Enter the size of the array");
+    scanf("%d", array_size);
+    my_dynamic_array = malloc(array_size * sizeof my_dynamic_array[0]);
+    if (NULL == my_dynamic_array){
+        fprintf(stderr, );
+
+    }
+
+}

@@ -1,0 +1,13 @@
+
+section p:first-of-type{
+  font-size: large;
+}
+
+section p{
+  padding-left: 30px;
+}
+
+section:nth-child(n+1){
+  border: 1px solid;
+
+}

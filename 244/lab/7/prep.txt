@@ -1,0 +1,34 @@
+InputStreamReader
+    Q1. reading in bytes and decoding them into characters using a
+        specified charset
+
+    Q2. for top efficiency, we should wrap an inputstreamreader within a buffer
+        reader eg.
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+
+BufferedReader
+    Q3. readLine() returns a String or null
+
+PrintWriter
+    Q4. Prints a String and then terminates the line. No return type (void)
+
+ServerSocket    
+    Q5. Create a server socket bound to the specified port
+
+    Q6. Listens for a connection made to this socket and accepts it
+
+Socket 
+    Q7. Socket(InetAddress address, int port);
+
+    Q8. Returns an input stream for this socket
+
+    Q9. getOutputStream()
+
+Date
+    Q10. initialized to represent the time it was allocated with millisecond precision
+
+    Q11. Date date = new Date();
+         System.out.println(date.toString());
+
+TCPExample
+    Q12. <port> [host] port is mandatory, host is optional

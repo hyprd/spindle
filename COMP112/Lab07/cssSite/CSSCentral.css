@@ -1,0 +1,136 @@
+/* Style sheet for "CSS Central" by Nick Meek December 2017*/
+
+body {
+  font-family: sans-serif;
+  /* set font family for whole site */
+  width: 75%;
+  margin-left: auto;
+  /* Giving the body a width and setting left and right margins to auto */
+  margin-right: auto;
+  /* means the body element sits in the middle of the browser window. */
+  color: black;
+  background-color: white;
+}
+
+/*Text properties*/
+
+h1 {
+  text-align: right;
+  font-size: xx-large;
+  color: #ff0000;
+  background-color: inherit;
+  /* Remember color and background-color always set as a pair */
+  padding: 4px;
+  background-image: url(flower.jpg);
+  background-repeat: repeat-x;
+}
+
+h2, dt {
+  font-size: medium;
+  color: #661a6f;
+  background-color: inherit;
+}
+
+dl a {
+  color: inherit;
+  background-color: #ffefff;
+  padding: 3px 3px 0px 3px;
+  text-decoration: none;
+  border: outset 2px #f3d4f3;
+  margin: 0;
+}
+
+dl a:hover {
+  border-style: inset;
+}
+
+dd {
+  margin: 5px;
+}
+
+p {
+  font-size: small;
+  color: #333333;
+  background-color: inherit;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  font-size: small;
+  margin: 10px;
+}
+
+/*Layout Properties*/
+
+nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  background-color: #54165b;
+}
+
+footer {
+  margin-top: 5%;
+  font-size: xx-small;
+  text-align: center;
+}
+
+/* Navigation link properties*/
+
+nav a {
+  text-decoration: none;
+  font-size: small;
+}
+
+nav a:link {
+  color: #ffffff;
+  background-color: inherit;
+  padding: 1px;
+}
+
+nav a:visited {
+  color: #cccccc;
+  background-color: inherit;
+}
+
+nav a:hover {
+  color: inherit;
+  background-color: #8a518d;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #8a518d;
+  background-color: inherit;
+}
+
+/*Standard link properties*/
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #661a6f;
+  background-color: inherit;
+}
+
+a:visited {
+  color: #8a518d;
+  background-color: inherit;
+}
+
+a:hover {
+  color: #54165b;
+  background-color: inherit;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #8a518d;
+  background-color: inherit;
+}

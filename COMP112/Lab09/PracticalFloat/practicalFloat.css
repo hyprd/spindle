@@ -1,0 +1,53 @@
+/* Nick Meek, COMP112 Float Exercise. Dec. 2014 */
+
+body{
+	width:800px;
+	margin:auto;
+	font-family: sans-serif;
+}
+
+header{
+	height: 100px;
+	padding: 18px 12px 5px 5px;
+	/* Note use of short format for padding values:
+	top, right, bottm, left, in that order */
+	color: black;
+	background-color:#fff0d5;
+}
+
+h1{
+	margin: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+section{
+	margin-left: 140px;
+}
+
+nav{
+	width: 130px;
+	height:450px;
+	color: black;
+	background-color:#fff0d5;
+	float: left;
+}
+
+nav ul{
+	margin-top:0;
+	padding: 0 0 0 5px;
+	list-style-type:none;
+}
+
+
+
+p{
+	margin-top: 5px;
+}
+
+footer{
+	padding-top:15px;
+	font-size: small;
+	text-align: center;
+	clear: both;
+}

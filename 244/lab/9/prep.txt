@@ -1,0 +1,15 @@
+1. So that other threads cannot modify clients during execution.
+2. Line 15
+3. Lines 32 - 37
+4. ChatServer started
+5. Accepted connection from client_1
+6. Welcome! You are client_1
+7. Accepted connection from client_2
+8. Welcome! You are client_2
+9. client_1: Hello from client_1
+10. client_1: Hello from client_1
+11. Sending Hello from client_1 to: [client_1, client_2, client_3]
+12. client_3 closed connection!
+13. client_1: hello
+14. Sending hello to: [client_1, client_2]
+15. client_4

@@ -1,0 +1,32 @@
+/* Basic style for COMP112 Image File Formats exercise. Nick Meek, 2017 */
+
+html{
+	background-color:#fff2e6;
+	color: #331a00;
+	font-family:sans-serif;
+}
+
+body{
+	width:1300px;
+	margin: 0 auto;
+}
+
+h1{
+	text-decoration:underline;
+}
+
+h2{
+	border-bottom: 1px solid;
+}
+
+h3{
+	text-decoration:underline;
+}
+
+img{
+	border:1px solid;
+}
+
+figure{
+	margin-bottom:35px;
+}

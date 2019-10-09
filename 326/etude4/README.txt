@@ -1,0 +1,32 @@
+COSC326 - Effective Programming Etude 4
+Ethan Simmonds ID: 1423402
+
+Written in Java 8 (JDK 8).
+
+BUILDING:
+    javac PokerHands.java
+    java PokerHands
+
+TESTCASES:
+# VALID
+6s/3d/KC/13S/Ad
+3C 3C 3C 3C 3C
+2C-2C-2C-2C-2C
+2C/2C/2C/2C/2C
+14S/14S/14S/14S/14S
+6C 8D 12S 4H 5H
+KC QC JC 10C 11D
+# INVALID
+14/14/14/14/14
+100C/100C/100C/100C/100C
+10X/10X/10X/10X/10X
+hello
+2C-2C-2C-2C
+2C-2C-2C-2C-2C-2C
+2C/2C-2C/2C 2C
+6L/6L/6L/6L/6L
+SH SH SH SH SH
+C D H S 
+C D H S C D
+0 0 0 0 0
+CC DD HH SS CC

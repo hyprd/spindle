@@ -1,0 +1,19 @@
+1. ^
+2. FileInputStream is meant for reading streams of raw bytes i.e. image data
+3. FileInputStream fis = new FileInputStream("file.txt");
+4. read(). returns int
+5. FileOutputStream is meant for writing streams of raw bytes i.e. image data
+6. FileOutputStream fos = new FileOutputStream("file.txt")
+7. write(int b)
+8. close()
+9.
+public class Scan{
+    public static void main(String[] args){
+           string word = args[0];
+           int number = args[1];
+           for(int i = 0; i < number; i++){
+                   System.out.print(word);
+           }
+           
+    }
+}

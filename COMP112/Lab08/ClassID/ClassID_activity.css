@@ -1,0 +1,27 @@
+/* Base Stylesheet for ClassID_activity.html. Nick Meek. 2017 */
+
+html{	background-color: #629965;	background-image: url(background.gif);	font-family: helvetica, sans-serif;	color: black;}body{	width: 70%;	margin: auto;	background-color: #ffffff;	color: inherit;	padding: 5px 10px;}h1{	font-size: x-large;	margin: 5px 0;}h2{	font-size: large;}h3{	font-size: medium;}h4{	font-size: small;}ol{	list-style-type: decimal;	list-style-position: inside;	font-size: small;	margin-left: -30px;}p{	font-size: small;	text-align: justify;	margin-top: 0px;}
+
+p:last-child{
+	color:#efe;
+}
+
+.meaning{
+
+	font-style: italic;
+	margin-left: 20px;
+}
+
+#head{
+	color: grey;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: 1px;
+
+
+
+}
+
+#intro{
+	font-style:oblique;
+}

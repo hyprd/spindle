@@ -1,0 +1,101 @@
+
+        A Fresher's Guide To Computer Science
+        Welcome to Dunedin or "Dunners" as it is affectionately known and welcome to Computer Science.
+        
+        In this web site you will find some basic information that you may find useful over your first few weeks here. We assume you are taking COMP112 and/or COMP150.
+        
+        
+        
+        Places
+        
+        The Owheo Building
+        The Owheo Building houses all the Computer Science people. The ground floor contains all the undergraduate labs; COMP112 uses Lab A and COMP150 uses Lab C. The first floor houses the the System Administrators and the postgraduate research labs. The top floor is home to the lecturers.
+        
+
+            -- INSERT IMAGE HERE owheo.png  --
+
+
+        
+        The Archway West Lecture Theaters
+        Just a short walk toward campus are he Archway West lecture theaters. Built in the 1970's nuclear fallout shelter style they are in stark contrast to the original Archway building which, coincidentally, was the main Computer Science building for many years.
+        The Archway West theater complex is noted for its peculiar numbering system and difficulty to navigate. I guarantee that you will have to do a least one complete circuit of the building to find the theater you want and when you leave you will not leave by the door you entered and will be facing some completely unfamiliar part of the University.
+        
+       
+        Information Overload
+        Over the coming days and weeks the University will bombard you with information, academic departments will do the same and OUSA, Student Health ad infinitum will all add to the deluge. To tell the truth its all a bit much and students are drawn to one of two options:
+        
+        
+        
+            - Read and absorb everything.
+            - Ignore it all.
+        
+        
+        May I suggest that neither path is advisable. There is just too much information to attempt Option 1; that way madness lies. Option 2 is unwise because some of that information is vital. Here's the trick, all the really important stuff comes either from eVision or Blackboard. Attend to that stuff, the rest is optional.
+        
+        
+        The Trick To Passing (and still having a life)
+        I am guessing that your intention is to pass all your papers; very laudable and we wish you every success. There is a simple 'trick' to ensuring you pass any paper and it doesn't involve working late at night or in the weekends. Interested? Here's the trick; all you have to do is go to all your lectures, labs and tutorials. Statistically students who stay engaged by going to all their classes almost never fail. Really, its as simple as that. Go to all your scheduled classes, when they are scheduled and you can have guilt-free evenings and weekends and you still get to pass! If you want to pass with a good grade you might need to work a little harder.
+        
+        
+        Labs
+        In you CS labs you will be lead through a series of exercises designed to give you practical experience in web page development (COMP112) and programming with Python (COMP150). In both papers you are scheduled to 2 two-hour labs per week. You should definitely attend these sessions. If you want to come along to other sessions then please feel free, if there is a spare seat you are welcome to it. Please be aware though that seating priority is given to those scheduled for that particular session. The COMP112 laboratory times are given below.
+        
+        
+        COMP112 Laboratory Times
+        
+        
+            - Monday - No Labs
+            - Tuesday
+                
+                    - 9am - 11am
+                    - 1pm - 3pm
+                    - 3pm - 5pm
+                
+            
+            - Wednesday
+                
+                    - 9am - 11am
+                    - 11am - 1pm
+                
+            
+            - Thursday
+                
+                    - 9am - 11am
+                    - 11am - 1pm
+                    - 1pm - 3pm
+                
+            
+            - Friday
+                
+                    - 9am - 11am
+                    - 1pm - 3pm
+                
+            
+        
+        
+        Lectures
+        Lectures serve a number of important functions in a course. They are not, as some may think, just the random thoughts that occur to the lecturer on the day but are developed very carefully alongside the labs so that labs and lectures both support each other both providing relevant information at the moment when it is needed.
+        
+        
+        One very important function of the lectures is to provide a pace for the course. That is they let students know where they should be in the course at any particular moment.
+        
+        
+        
+            COMP112 lectures
+                
+                    - Monday 3pm Archway 4
+                    
+                    - Wednesday 3pm Archway 4
+                    
+                
+            
+            COMP150 lectures
+                
+                    - Monday 11am Archway 4
+                    
+                
+            
+        
+        
+
+

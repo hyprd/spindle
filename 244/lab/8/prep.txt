@@ -1,0 +1,27 @@
+1. Declare a class that extends Thread or declare a class which implements Runnable.
+2. run()
+3. start()
+4. Server is host/guest-agnostic and fulfills both ends using the same code, as opposed to
+   TCPExample which requires code for host and guest separately.
+5. Creates two separate threads running independently.
+   Line 14 accepts from System.in and outputs to a socket. (sender)
+   Line 15 takes the socket as input and outputs to screen. (receiver)
+6. No, since threads are independent from each other.
+7. 
+    import java.net.*;
+    public class Client {
+        public static void main(String[] args) {
+            try {
+                int port = Integer.parseInt(args[0]);
+                Socket clientSocket = new Socket(args[1], port);
+                System.err.println("Connected to " + args[1] + " on port " + port);
+                new ReadWriteThread(System.in, clientSocket.getOutputStream()).start();
+                new ReadWriteThread(clientSocket.getInputStream(), System.out).start();
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.err.println("\nUsage: java Client <port>");
+            }
+        }
+    }
+8. There are threads with identical wait times, meaning some of them will wake up and 
+   print their contents while another thread is already printing their contents.

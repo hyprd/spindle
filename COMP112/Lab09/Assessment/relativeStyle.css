@@ -1,0 +1,67 @@
+/*Nick Meek COMP112 Positioning Assessment Dec 2017*/
+
+body{
+	margin:0;
+	font-family:serif;
+	background-color:white;
+	color:darkgreen;
+}
+
+article{
+	margin:100px auto;
+	background-color:lightgreen;
+	color:inherit;
+	border: solid 2px;
+	width:600px;
+	height:400px;
+	padding: 10px;
+
+}
+
+h2{
+	position:relative;
+	left:325px;
+	bottom: 50px;
+}
+p{
+	position: relative;
+	bottom: 50px;
+}
+figure{
+	position: relative;
+	left: 343px;
+	bottom: 360px;
+}
+
+
+h1{
+	background-color:#ff0000;
+	color:black;
+	border: solid black 1px;
+	padding:10px;
+	width:350px;
+}
+
+h2{
+	background-color:#00ff00;
+	color:black;
+	border: solid black 1px;
+	padding:4px;
+	width:250px;
+}
+
+p{
+	width:350px;
+	text-align:justify;
+}
+
+figure{
+	width:200px;
+	height:200px;
+	border: solid black 1px;
+
+}
+
+figcaption{
+	text-align:center;
+}

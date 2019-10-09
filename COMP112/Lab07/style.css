@@ -1,0 +1,25 @@
+/* Ethan Simmonds, March 2018 - Stylesheet for basic.html*/
+html{
+
+  background-color: #f2f2ff;
+  color: #4d4da6;
+  font-family: Geneva;
+}
+h1{
+  font-size: x-large;
+  text-align: center;
+  background-color:#ffc575;
+  font-family:serif;
+  color: #a9eda8;
+  font-style: italic;
+}
+h2{
+  font-size:large;
+  font-family:serif;
+  text-decoration: underline;
+}
+p{
+  font-size: medium;
+  text-indent: 2em;
+  font-family:sans-serif;
+}
