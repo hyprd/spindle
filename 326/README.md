@@ -1,4 +1,4 @@
-#Etude Specification
+# Etude Specification
 
 ### Etude 1 - Syllable Slam
 
