@@ -1,0 +1,8 @@
+Q. Examine the Vagrantfile to see if you can deteremine where the differences
+are from the default Vagrantfile created by the vagrant init command, and 
+the purpose of these changes.
+    A. The file uses port forwarding, perhaps in preparation for a local
+    virtualisation environment (as only the host is able to access the
+    virtual machine).
+    There is also a provisioning script for installing Apache2. This may be
+    a prerequisite installation for the virtualisation environment.
