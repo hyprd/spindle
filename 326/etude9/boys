@@ -1,0 +1,5 @@
+1: w=1 d=6 max 24
+2: w=1 d=5 min 25
+3: w=1 d=0 min 24
+4: w=1 d=6 max 24
+5: w=2 d=0 min 25

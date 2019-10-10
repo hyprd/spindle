@@ -113,11 +113,15 @@ public class PokerHands {
             boolean isLong = (card.length() == 3) ? true : false;
             if(isLong){
                 // Concatenate two characters into a single integer
-                cardNumber = Integer.parseInt(Integer.toString(Character.getNumericValue(card.charAt(0))) 
-                                                + Integer.toString(Character.getNumericValue(card.charAt(1))));
+                cardNumber = Integer.parseInt(Integer.toString(Character.getNumericValue(card.charAt(0))) + Integer.toString(Character.getNumericValue(card.charAt(1))));
+                if(cardNumber > 13){
+                    System.out.println("Invalid: " + lineOutput);
+                    return;
+                }
             } else{
                 if(Character.isDigit(card.charAt(0))){
                     cardNumber = Character.getNumericValue(card.charAt(0));
+                    if(cardNumber == 1) cardNumber = 14;
                 } else{
                     switch(card.charAt(0)){
                         case 'J':
@@ -141,16 +145,26 @@ public class PokerHands {
             }
             cardList.add(new Card(cardSuit, cardNumber));
         }
-        formatHand(cardList);
+        formatHand(cardList, lineOutput);
     }
 
-    void formatHand(ArrayList<Card> cardList){
+    void formatHand(ArrayList<Card> cardList, String lineOutput){
         // Rearrange cards by rank
         Comparator<Card> cardComparator = Comparator.comparingInt(Card::getNumber).thenComparingInt(Card::getSuitRank);
         Collections.sort(cardList, cardComparator);
+        for(int i = 0; i < cardList.size() - 1; i++){
+            if((cardList.get(i).getNumber() == cardList.get(i + 1).getNumber()) && (cardList.get(i).suitRank == cardList.get(i + 1).suitRank)){
+                System.out.println("Invalid: " + lineOutput);
+                return;
+            }
+
+        }
         StringBuilder sb = new StringBuilder();
         for(Card card : cardList){
             switch(card.getNumber()){
+                case 1: case 14:
+                    sb.append("A");
+                    break;
                 case 11:
                     sb.append("J");
                     break;
@@ -159,9 +173,6 @@ public class PokerHands {
                     break;
                 case 13:
                     sb.append("K");
-                    break;
-                case 14: case 1:
-                    sb.append("A");
                     break;
                 default:
                     sb.append(card.getNumber());

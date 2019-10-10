@@ -1,0 +1,37 @@
+get tc, tcl from 1; ac from 2 for original run
+
+tc: 67 tlc: 844 ac: 81
+tc: 4 tlc: 10 ac: 4
+tc: 9382 tlc: 264813 ac: 16928
+tc: 16 tlc: 136 ac: 16
+tc: 20 tlc: 172 ac: 20
+tc: 26 tlc: 241 ac: 27
+tc: 116 tlc: 961 ac: 128
+tc: 64 tlc: 869 ac: 68
+tc: 89 tlc: 1308 ac: 102
+tc: 363 tlc: 5051 ac: 431
+tc: 197 tlc: 3023 ac: 219
+tc: 56 tlc: 777 ac: 61
+tc: 1632 tlc: 32203 ac: 2518
+tc: 7637 tlc: 182273 ac: 10945
+tc: 875 tlc: 18511 ac: 1125
+tc: 1698 tlc: 64213 ac: 2553
+tc: 9382 tlc: 264813 ac: 16928
+
+tc: 67 tlc: 79 ac: 1225
+tc: 4 tlc: 4 ac: 4
+tc: 9382 tlc: 11896 ac: 1079298
+tc: 16 tlc: 20 ac: 152
+tc: 20 tlc: 23 ac: 192
+tc: 26 tlc: 31 ac: 267
+tc: 116 tlc: 161 ac: 1182
+tc: 64 tlc: 87 ac: 1179
+tc: 89 tlc: 106 ac: 1631
+tc: 363 tlc: 451 ac: 6888
+tc: 197 tlc: 304 ac: 5512
+tc: 56 tlc: 70 ac: 1501
+tc: 1632 tlc: 2068 ac: 78068
+tc: 7637 tlc: 11780 ac: 458801
+tc: 875 tlc: 1719 ac: 50964
+tc: 1698 tlc: 2039 ac: 192819
+tc: 9382 tlc: 11896 ac: 1079298
